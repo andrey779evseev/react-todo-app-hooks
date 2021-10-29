@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: red;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.title {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.title-add {
+    display: flex;
+    align-items: center;
+    width: 420px;
+    margin: 0 auto;
+}
+
+.title-inp {
+    width: 300px;
+    height: 35px;
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.btn-add-todo {
+    height: 35px;
+    width: 120px;
+    border: none;
+    background-color: lightgrey;
+}
+
+
+.list {
+    list-style-type: none;
+    background-color: grey;
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.list-item {
+    width: 420px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    background-color: grey;
+}
+
+.delete-btn {
+    height: 100%;
+    border: none;
+    width: 30px;
+}
+
+.delete-btn:hover {
+    background-color: red;
+}
+
+.delete-icon {
+    height: 100%;
+    width: 100%;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.name-todo {
+    padding-left: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btns {
+    width: 420px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
